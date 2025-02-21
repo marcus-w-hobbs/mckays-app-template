@@ -49,6 +49,7 @@ export default async function RootLayout({
             "bg-background mx-auto min-h-screen w-full scroll-smooth antialiased",
             inter.className
           )}
+          suppressHydrationWarning
         >
           <Providers
             attribute="class"
